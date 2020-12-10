@@ -1,6 +1,7 @@
 <template>
   <div id="app">
   <Header/>
+    <Nav />
     <!--    <img src="./assets/logo.png">-->
     <router-view/>
   </div>
@@ -8,9 +9,10 @@
 
 <script>
 import Header from "./components/Header";
+import Nav from "./components/Nav";
 export default {
   name: 'App',
-  components:{Header}
+  components:{Header,Nav}
 }
 </script>
 
