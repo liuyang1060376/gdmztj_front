@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/fontlcon/iconfont.css">
+    <link rel="stylesheet" href="">
+    <title>广德民众体检官网</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+<!--解决移动端点击延迟3毫秒问题-->
+    <script src="/static/js/fastclick.js"></script>
+    <script>
+      if ('addEventListener' in document) {
+        document.addEventListener('DOMContentLoaded', function() {
+          FastClick.attach(document.body);
+        }, false);
+      }
+    </script>
+  </body>
+</html>
