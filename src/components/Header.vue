@@ -2,12 +2,12 @@
   <div id="header" class="d-none d-md-block">
     <header class="container">
         <div class="row">
-          <div class="col-sm-6 col-lg-2  h-left">
+          <div class="col-sm-6 col-lg-3  h-left">
             <p>欢迎进入民众体检官网!</p>
           </div>
           <div class="col-lg-3 d-none d-lg-block h-middle">
             <ul>
-              <li> <a href="">官方微博</a></li>
+              <li><a href="">官方微博</a></li>
               <li><a href="">官方微信</a></li>
             </ul>
           </div>
@@ -47,22 +47,19 @@ export default {
         ul li
             margin-right 5px
             float left
-            padding-left 20px
+            a
+              color #707070
+              padding-left 20px
+              text-decoration none
         ul li:nth-child(2)
             background: url("./../assets/wb.png") no-repeat
             background-size: 20px 20px
             background-position: 0 6px
-            a
-              color #707070
-              text-decoration none
+
         ul li:nth-child(1)
             background: url("./../assets/wx.png") no-repeat
             background-size: 20px 20px
             background-position: 0 6px
-            a
-              color #707070
-              text-decoration none
-
 
       .h-right
         display flex
